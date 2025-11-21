@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+
+# サイトマップの場所を指定
+Sitemap: https://example.com/sitemap.xml
+
+# クロール不要なファイル・ディレクトリ
+Disallow: /css/
+Disallow: /js/
+Disallow: /*.css$
+Disallow: /*.js$
+
+# 管理系ファイル
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.git/
+
+# 一時ファイル・バックアップファイル
+Disallow: /*.tmp$
+Disallow: /*.bak$
+Disallow: /*~$
+
+# 主要ページのクロールを推奨
+Allow: /index.html
+Allow: /vehicles.html
+Allow: /privacy.html
+Allow: /terms.html
