@@ -1186,6 +1186,7 @@ a {
 
 /* サービス特徴 */
 .service-features {
+    max-width: 900px;
     margin: 3rem 0;
     padding: 2rem;
     background-color: #f9fafb;
