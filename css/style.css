@@ -1186,7 +1186,6 @@ a {
 
 /* サービス特徴 */
 .service-features {
-    max-width: 900px;
     margin: 3rem 0;
     padding: 2rem;
     background-color: #f9fafb;
@@ -1202,7 +1201,7 @@ a {
 
 .features-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 1.5rem;
 }
 
